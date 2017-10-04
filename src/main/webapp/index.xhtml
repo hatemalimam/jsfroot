@@ -1,0 +1,50 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"  
+                xmlns:h="http://java.sun.com/jsf/html"  
+                xmlns:f="http://java.sun.com/jsf/core"  
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/templates/default/main.xhtml">
+    <ui:define name="content">  
+        <h:outputStylesheet name="css/root.css" />
+        <div class="icon">
+            <div class="controller">
+                <div class="leftPad">
+                    <div class="arrowBG">
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+                <div class="bodyPad"></div>
+                <div class="rightPad">
+                    <div class="buttonBG">
+                        <div class="button1">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="button2">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="intro">
+                <h3>Welcome</h3>
+                <p class="lead">You have reached the localhost of my experiments.</p>                
+                <ul class="list-unstyled lead">
+                    <li><a href="http://chartistjsf.org">ChartistJSF</a></li>
+                    <li><a href="http://jsf.hatemalimam.com/DailyLab">DailyLab</a></li>
+                    <li><a href="http://animatejsf.org">AnimateJSF</a></li>
+                    <li><a href="https://github.com/hatemalimam">Github</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="container">
+
+        </div>
+
+        <div id="tutorial">          
+            
+        </div>
+        <h:outputScript name="js/root.js"></h:outputScript>
+    </ui:define>
+</ui:composition>        
+
